@@ -19,7 +19,7 @@
 -export([handle_randomdoc_show_req/3]).
 
 -include_lib("couch/include/couch_db.hrl").
--include("couch_randomdoc.hrl")
+-include("couch_randomdoc.hrl").
 
 
 handle_randomdoc_show_req(#httpd{
